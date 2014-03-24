@@ -18,7 +18,7 @@ BASE_DIR=$(cd $(dirname $0); cd ..; pwd)
 MODE="production"
 
 while getopts d OPT; do
-    case $OPT in 
+    case $OPT in
         d) MODE="development" ;;
         *) usage_exit ;;
     esac
@@ -36,7 +36,7 @@ if [ ! -f settings_local.py ]; then
         run ln -s settings_development.py settings_local.py
     else
         run ln -s settings_production.py settings_local.py
-    fi        
+    fi
 fi
 
 
