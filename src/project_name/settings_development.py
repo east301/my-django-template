@@ -35,6 +35,7 @@ ALLOWED_HOSTS = ['*']
 # ==================================================
 
 ADDITIONAL_INSTALLED_APPS = (
+    'django.contrib.admin',
     'debug_toolbar',
 )
 
