@@ -9,6 +9,7 @@ urlpatterns = patterns('',
 
     # apps.lib
     url(r'^$', 'apps.lib.views.base'),
+    url(r'^version/$', 'apps.lib.views.version'),
 )
 
 
