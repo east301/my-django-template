@@ -57,7 +57,7 @@ fi
 
 run cd $BASE_DIR
 
-run bower install
+run yes no | bower install --allow-root
 
 
 # ==================================================
