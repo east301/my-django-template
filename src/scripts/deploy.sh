@@ -26,6 +26,17 @@ done
 
 
 # ==================================================
+# creates virtualenv and installs dependencies
+# ==================================================
+
+run cd $BASE_DIR
+
+[ ! -d venv ] && run virtualenv venv
+run source venv/bin/activate
+run pip install -r requirements.txt
+
+
+# ==================================================
 # creates local_settings.py
 # ==================================================
 
