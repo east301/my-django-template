@@ -6,5 +6,6 @@
 
 # Project
 bower_components/*
+project_name/env.ini
 project_name/settings_local.py
 static/*
