@@ -18,6 +18,5 @@ Usage
 Requirements
 ------------
 
-* [Bower](http://bower.io/)
 * [Django 1.6.x](https://www.djangoproject.com/)
 * [Python 2.x](https://www.python.org/)
